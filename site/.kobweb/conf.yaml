@@ -1,0 +1,14 @@
+site:
+  title: "Welcome to My Page"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/vytautasdev.js"
+      api: "build/libs/vytautasdev.jar"
+    prod:
+      script: "build/distributions/vytautasdev.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
